@@ -1,0 +1,185 @@
+/* Reset browser defaults */
+* {
+  width: 100%;
+  height: auto;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+.home {
+  min-height: 100vh; 
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  font-family: Arial, sans-serif;
+}
+
+/* Header Layout */
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  padding: 12px 24px;
+  background-color: #302463;
+  color: white;
+  box-sizing: border-box;
+}
+
+.head-list-nav{
+    display:flex;
+    list-style-type: none;
+    position: relative;
+}
+
+.head-list-nav li a:hover {
+  color: #ffcc00;
+}
+
+/* Logo */
+.logo img {
+  height: 50px;
+}
+
+/* Search bar */
+.search {
+  flex: 1; 
+  display: flex;
+  justify-content: center;
+  margin: 0 20px;
+}
+
+.search input {
+  width: 80%; 
+  padding: 8px 12px;
+  border-radius: 6px;
+  border: none;
+  font-size: 14px;
+}
+
+/* Navigation */
+.nav-links {
+  display: flex;
+  gap: 20px;
+  list-style: none;
+}
+
+.nav-links li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.nav-links li a:hover {
+  color: #ffcc00;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #261d4a;
+  color: white;
+}
+
+
+
+.last-sec{
+    display: flex;
+    box-sizing: border-box;
+    list-style: none;
+    justify-content: center;
+    padding: 40px 0;
+    
+}
+
+.last-sec li{
+    text-decoration: none;
+    list-style-type: none;
+    color: inherit;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 15px;
+}
+
+.football{
+    display: block;
+    padding-bottom: 17px;
+    font-weight: bold;
+}
+
+.basketball{
+    display: block;
+    padding-bottom: 17px;
+    font-weight: bold;
+}
+
+.gym{
+    display: block;
+    padding-bottom: 17px;
+    font-weight: bold;
+}
+
+.general{
+    display: block;
+    padding-bottom: 17px;
+    font-weight: bold;
+
+}
+
+
+.last-sec .col{
+    padding: 0 20px;
+}
+
+
+.icons{
+    list-style: none;
+    display: inline-block;
+    justify-content: center;
+    margin: 0;
+    padding-top: 1em;
+    padding-right: 0px;
+    padding-bottom: 0.62rem;
+    padding-left: 0px;
+    color: inherit;
+    background-color: transparent;
+    align-items: center;
+}
+
+
+.icons .instagram:hover {
+  background: linear-gradient(
+    45deg,
+    rgb(254, 218, 117),
+    rgb(250, 126, 30),
+    rgb(214, 41, 118),
+    rgb(150, 47, 191),
+    rgb(79, 91, 213)
+  );
+  color: white;
+}
+
+.icons .facebook:hover {
+  background: #1877f2; 
+  color: white;
+}
+
+.icons .tiktok:hover {
+  background: linear-gradient(
+    to right,
+    #69c9d0,
+    #ee1d52
+  );
+    color: white;
+}
+
+.midpart {
+  background-image: url("/ladywithball.webp");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  height: 300px; 
+  width: 100%;
+}
