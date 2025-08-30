@@ -150,7 +150,7 @@ Update DB config in `backend/config/db.js`.
 
 ## ✅ Definition of Done
 
-* Code reviewed and merged into `develop`
+* Code reviewed and merged into `main`
 * Unit + manual tested
 * Jira task marked **Done**
 * Documentation updated
