@@ -1,15 +1,12 @@
 
 # 📝 Precision Sports Center
 
-```markdown
+markdown
 # 🏀 Precision Sports Center – E-Commerce Web Application  
 
 ![React](https://img.shields.io/badge/React-18.2.0-61DAFB?style=for-the-badge&logo=react)
 ![React Router](https://img.shields.io/badge/React_Router-6.3.0-CA4245?style=for-the-badge&logo=react-router)
 ![E-Commerce](https://img.shields.io/badge/E--Commerce-Platform-FF6B6B?style=for-the-badge)
-
-
----
 
 ## 📌 Project Overview
 Precision Sports Center is a **full-stack e-commerce platform** for browsing and purchasing sports kits.  
@@ -27,7 +24,7 @@ Developed as part of the **DCIT 208 Course Project (University of Ghana)**, the 
 - **Asiatey Michael** – Database Administrator  
 
 ---
-
+````
 ## 📂 Repository Structure
 
 
@@ -57,9 +54,9 @@ precision-sports-center/
 
 ## ⚡ Tech Stack
 - **Frontend:** React, Tailwind CSS, React Router  
-- **Backend:** Node.js, Express.js  
+- **Backend:** Node.js,   
 - **Database:** MySQL / PostgreSQL  
-- **Version Control:** GitHub (feature-branch workflow)  
+- **Version Control:** GitHub (feature-branch workflow not yet implemented)  
 - **Project Management:** Jira (Agile Scrum)  
 
 ---
@@ -159,7 +156,7 @@ Update DB config in `backend/config/db.js`.
 
 ## 📖 License
 
-This project is for **academic purposes (DCIT 208 – Software Engineering, University of Ghana)**.
+This project is for **academic purposes (DCIT 208 – Software Engineering, University of Ghana  BY: Syntrix Software Engineering Team)**.
 Not for commercial use.
 
 ```
