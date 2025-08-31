@@ -4,11 +4,10 @@
 ```markdown
 # 🏀 Precision Sports Center – E-Commerce Web Application  
 
-[![Build Status](https://img.shields.io/badge/build-passing-brightgreen)]()  
-[![License](https://img.shields.io/badge/license-Academic-blue)]()  
-[![Frontend](https://img.shields.io/badge/frontend-React-blue)]()  
-[![Backend](https://img.shields.io/badge/backend-Node.js-green)]()  
-[![Database](https://img.shields.io/badge/database-MySQL-orange)]()  
+![React](https://img.shields.io/badge/React-18.2.0-61DAFB?style=for-the-badge&logo=react)
+![React Router](https://img.shields.io/badge/React_Router-6.3.0-CA4245?style=for-the-badge&logo=react-router)
+![E-Commerce](https://img.shields.io/badge/E--Commerce-Platform-FF6B6B?style=for-the-badge)
+
 
 ---
 
