@@ -1,0 +1,134 @@
+/* src/components/Register.css */
+.register-container {
+  min-height: 100vh;
+  background-color: #f4f4f4;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.register-form {
+  background-color: #ffffff;
+  padding: 35px 30px;
+  border-radius: 12px;
+  width: 100%;
+  max-width: 420px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+}
+
+.register-form input[type="text"],
+.register-form input[type="email"],
+.register-form input[type="password"] {
+  width: 100%;
+  padding: 14px 16px;
+  margin-bottom: 16px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 1rem;
+  box-sizing: border-box;
+}
+
+.password-field {
+  position: relative;
+}
+
+.password-field input {
+  width: 100%;
+  padding-right: 60px;
+}
+
+.show-btn {
+  position: absolute;
+  top: 50%;
+  right: 12px;
+  transform: translateY(-50%);
+  background: none;
+  border: none;
+  color: #0071ce;
+  font-weight: 600;
+  cursor: pointer;
+  font-size: 0.9rem;
+}
+
+.checkbox-group {
+  margin-bottom: 16px;
+  font-size: 0.9rem;
+  color: #333;
+}
+
+.checkbox-group label {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-weight: 500;
+}
+
+.note {
+  margin-left: 26px;
+  font-size: 0.8rem;
+  color: #555;
+  margin-top: 6px;
+}
+
+.note a {
+  color: #0071ce;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.terms {
+  font-size: 0.75rem;
+  color: #555;
+  margin-top: 20px;
+  line-height: 1.4;
+}
+
+.terms a {
+  color: #0071ce;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.create-btn {
+  width: 100%;
+  padding: 14px;
+  margin-top: 20px;
+  background-color: #0071ce;
+  color: white;
+  border: none;
+  border-radius: 30px;
+  font-size: 1rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.create-btn:hover {
+  background-color: #005fa3;
+}
+
+.signin-prompt {
+  text-align: center;
+  margin: 20px 0 10px;
+  font-size: 0.9rem;
+  color: #333;
+}
+
+.signin-btn {
+  width: 100%;
+  padding: 12px;
+  background-color: white;
+  border: 2px solid #ccc;
+  border-radius: 30px;
+  font-size: 1rem;
+  font-weight: bold;
+  cursor: pointer;
+  color: #333;
+  transition: all 0.3s ease;
+}
+
+.signin-btn:hover {
+  background-color: #f1f1f1;
+}
