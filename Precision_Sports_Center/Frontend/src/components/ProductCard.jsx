@@ -1,4 +1,4 @@
-// src/components/ProductCard.jsx
+// src/compo/ProductCard.jsx
 import { useContext } from "react";
 import { ShopContext } from "../context/ShopContext";
 
