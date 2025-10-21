@@ -1,0 +1,7 @@
+"# Gitignore for Precision Sports Center" 
+<<<<<<< HEAD
+=======
+.env
+node_modules/
+*.log
+>>>>>>> 28eaa00 (First commit from Dawda)
